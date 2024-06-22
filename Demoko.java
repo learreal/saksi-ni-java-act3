@@ -84,7 +84,6 @@ class Demoko {
 // --------------------------------------
 class Filipino extends Language {
     public Filipino(String translation) {
-        this.lang = "Filipino";
         this.display = "fl-PH";
         this.translation = translation;
     }
@@ -92,7 +91,6 @@ class Filipino extends Language {
 
 class English extends Language {
     public English(String translation) {
-        this.lang = "English";
         this.display = "en-US";
         this.translation = translation;
     }
@@ -100,7 +98,6 @@ class English extends Language {
 
 class Chinese extends Language {
     public Chinese(String translation) {
-        this.lang = "Chinese";
         this.display = "zh-CN";
         this.translation = translation;
     }
